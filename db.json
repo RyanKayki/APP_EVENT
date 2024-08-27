@@ -1,0 +1,57 @@
+{
+  "restaurants": [
+    { 
+      "id": "1", 
+      "name": "Rock in Rio", 
+      "image": "https://i.imgur.com/ZvABMEA.png"
+    },
+    { 
+      "id": "2", 
+      "name": "Mickey Mouse", 
+      "image": "https://i.imgur.com/Q3uXlrX.png"
+    }
+  ],
+  "foods": [
+    { 
+      "id": "1", 
+      "name": "Maldivas", 
+      "price": 50.000,
+      "time": "50-60 min",
+      "delivery": 500.000,
+      "rating": 5.0,
+      "image": "https://i.imgur.com/eC6mDx0.png",
+      "restaurantId": "1"
+
+    },
+    { 
+      "id": "2", 
+      "name": "Luxury Resorts", 
+      "price": 1643.66,
+      "time": "30-40 min",
+      "delivery": 700,
+      "rating": 4.9,
+      "image": "https://i.imgur.com/KqyM233.png",
+      "restaurantId": "6"
+    },
+    { 
+      "id": "3", 
+      "name": "Rock in Rio", 
+      "price": 795.00,
+      "time": "50-60 min",
+      "delivery": 230,
+      "rating": 4.5,
+      "image": "https://i.imgur.com/ZvABMEA.png",
+      "restaurantId": "5"
+    },
+    { 
+      "id": "4", 
+      "name": "BGS", 
+      "price": 378,
+      "time": "50-60 min",
+      "delivery": 120,
+      "rating": 4.4,
+      "image": "https://i.imgur.com/b2GfJWT.png",
+      "restaurantId": "3"
+    }
+  ]
+}
