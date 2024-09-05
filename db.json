@@ -1,57 +1,125 @@
 {
-  "restaurants": [
+  "categories": [
     { 
       "id": "1", 
-      "name": "Rock in Rio", 
-      "image": "https://i.imgur.com/ZvABMEA.png"
+      "name": "Music", 
+      "image": "https://i.imgur.com/vR6qAOG.png"
     },
     { 
       "id": "2", 
-      "name": "Mickey Mouse", 
-      "image": "https://i.imgur.com/Q3uXlrX.png"
-    }
-  ],
-  "foods": [
-    { 
-      "id": "1", 
-      "name": "Maldivas", 
-      "price": 50.000,
-      "time": "50-60 min",
-      "delivery": 500.000,
-      "rating": 5.0,
-      "image": "https://i.imgur.com/eC6mDx0.png",
-      "restaurantId": "1"
-
-    },
-    { 
-      "id": "2", 
-      "name": "Luxury Resorts", 
-      "price": 1643.66,
-      "time": "30-40 min",
-      "delivery": 700,
-      "rating": 4.9,
-      "image": "https://i.imgur.com/KqyM233.png",
-      "restaurantId": "6"
+      "name": "Teatre", 
+      "image": "https://i.imgur.com/B7rRfNu.png"
     },
     { 
       "id": "3", 
-      "name": "Rock in Rio", 
-      "price": 795.00,
-      "time": "50-60 min",
-      "delivery": 230,
-      "rating": 4.5,
-      "image": "https://i.imgur.com/ZvABMEA.png",
-      "restaurantId": "5"
+      "name": "Lecture",
+      "image": "https://i.imgur.com/Zx5IWwW.png"
     },
     { 
       "id": "4", 
-      "name": "BGS", 
+      "name": "Art", 
+      "image": "https://i.imgur.com/S4btq1y.png"
+    },
+    { 
+      "id": "5", 
+      "name": "Festive", 
+      "image": "https://i.imgur.com/JDOZkgT.png"
+    }
+  ],
+  "events": [
+    { 
+      "id": "1", 
+      "name": "Glow", 
+      "price": 50000,
+      "time": "18:00",
+      "delivery": 500.000,
+      "rating": 5.0,
+      "image": "https://i.imgur.com/jbS9qJl.png",
+      "restaurantId": "1",
+      "categoriesId": "5",
+      "location": "Itapeva, Sao Paulo",
+      "date": "2024-09-15",
+      "duration": "2024-10-15",
+      "description": "A luxurious festive event in the beautiful Maldives with stunning views and an incredible ambiance."
+    },
+    { 
+      "id": "2", 
+      "name": "Night Party", 
+      "price": 1643.66,
+      "time": "20:00",
+      "delivery": 700,
+      "rating": 4.9,
+      "image": "https://i.imgur.com/kgM6uUW.png",
+      "restaurantId": "6",
+      "categoriesId": "2",
+      "location": "Paris, France",
+      "date": "2024-10-05",
+      "duration": "2024-11-05",
+      "description": "Experience luxury in the heart of Paris with exclusive resorts offering top-notch comfort and service."
+    },
+    { 
+      "id": "3", 
+      "name": "Baile Do Brisola", 
+      "price": 795.00,
+      "time": "21:00",
+      "delivery": 230,
+      "rating": 4.5,
+      "image": "https://i.imgur.com/VfkVCpv.png",
+      "restaurantId": "5",
+      "categoriesId": "1",
+      "location": "Rio de Janeiro, Brazil",
+      "date": "2024-11-01",
+      "duration": "2024-12-01",
+      "description": "Join us for one of the most exciting music festivals in the world, featuring top international bands and artists."
+    },
+    { 
+      "id": "4", 
+      "name": "Baile Funk", 
       "price": 378,
-      "time": "50-60 min",
+      "time": "15:00",
       "delivery": 120,
       "rating": 4.4,
-      "image": "https://i.imgur.com/b2GfJWT.png",
-      "restaurantId": "3"
+      "image": "https://i.imgur.com/9aYCLiZ.png",
+      "restaurantId": "3",
+      "categoryId": "4",
+      "location": "São Paulo, Brazil",
+      "date": "2024-12-10",
+      "duration": "2025-1-10",
+      "description": "The biggest gaming event in Brazil, featuring the latest in gaming technology and industry insights."
+    }
+  ],
+  "reviews": [
+    {
+      "id": "1",
+      "user": "João",
+      "rating": 5,
+      "comment": "Show maravilhoso, festa rápida!",
+      "eventsId": "1",
+      "eventName": "Glow"
+    },
+    {
+      "id": "2",
+      "user": "Maria",
+      "rating": 4,
+      "comment": "Ótima noite, mas a localizaçao poderia ser melhor.",
+      "eventsId": "2",
+      "eventName": "Night Party"
+    },
+    {
+      "id": "3",
+      "user": "Carlos",
+      "rating": 3,
+      "comment": "Tava Frio, mas foi chave.",
+      "eventsId": "3",
+      "eventName": "Baile Do Brisola"
+    },
+    {
+      "id": "4",
+      "user": "Ana",
+      "rating": 5,
+      "comment": "Experiência incrível! Vou ir novamente.",
+      "eventsId": "4",
+      "eventName": "Baile Funk"
     }
   ]
 }
